@@ -3,18 +3,9 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/car
     username: root
-    password: root
+    password:
   cache:
     type: redis
   redis:
     host: localhost
     port: 6379
-
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: 'health, prometheus'

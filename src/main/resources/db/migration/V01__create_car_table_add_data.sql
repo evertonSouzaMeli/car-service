@@ -1,4 +1,8 @@
-create table if not exists car(
+create database if not exists car;
+
+use car;
+
+create table if not exists car (
     id bigint not null auto_increment,
     name varchar(50) not null,
     model varchar(50) not null,

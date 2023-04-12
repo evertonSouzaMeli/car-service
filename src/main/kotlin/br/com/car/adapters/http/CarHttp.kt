@@ -1,4 +1,4 @@
-package br.com.car.domain.http
+package br.com.car.adapters.http
 
 data class CarHttp(
     val make: String,
