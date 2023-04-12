@@ -97,6 +97,18 @@
 			<artifactId>converter-gson</artifactId>
 			<version>2.9.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-circuitbreaker</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-retrofit</artifactId>
+			<version>1.7.1</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
