@@ -109,6 +109,11 @@
 			<artifactId>resilience4j-retrofit</artifactId>
 			<version>1.7.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.jetbrains.kotlinx</groupId>
+			<artifactId>kotlinx-coroutines-core</artifactId>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
